@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AstroCalculations">
+      <HintPath>..\..\AstroCalculations\AstroCalculations\bin\Debug\net6.0\AstroCalculations.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
